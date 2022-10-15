@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLINE-QUIZ </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="WhatsAppimg.jpeg">
+    <script src="script.js"></script>
+</head>
+<body>
+<!---Navigation Bar-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top custom">
+        <div class="container">
+            <img class="symbol mx-3 float-start img-fluid" href="WhatsAppimg2 (1).jpeg" alt="logo">
+            <a href="#" class="navbar-brand fw-bold">online quiz</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#quizzapplication" class="nav-link">quizapplication</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#loginid" class="nav-link">login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#questions" class="nav-link">Questions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#queries" class="nav-link">queries</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a href="login.html" class="nav-link">Login</a>
+                    </li> -->
+                </ul>
+            </div>
+        </div> 
+    </nav>
+<!--Section1/Home-->
+    <section class="bg-dark text-light p-5 text-center text-sm-start custom">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                   <h1>quizz <span class="text-warning">application</span></h1>
+                   <p class="lead my-4">Network, compete levels.</p>
+                   <button onclick="buttont()" class="btn btn-primary btn-lg">login and join for the quiz</button>
+                </div>
+                <img class="img-fluid w-50 d-none d-md-block" src="quizapplogo.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+<!-----Services Section1-->
+    <section id="services" class="p-2">
+        <div class="container">
+            <div class="d-flex justify-content-center p-5">
+                <h2 class="fw-bold">Here's what we offer!</h2>
+            </div>
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="timerbased.jpeg" class="img-fluid" alt="Services">
+                </div>
+                <div class="col-md p-5">
+                    <h3>Timer</h3>
+                    <p class="lead">
+                        Track and analyse your solves with our speed timer!
+                    </p>
+                    <p>
+                        averages of your quiz sessions and in-depth analysis of your times.
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Tutorial Section  -->
+    <section id="servies" class="p-5 bg-primary text-light">
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-between">
+                <div class="col-md margin-top">
+                    <h3>quiz selection</h3>
+                    <p class="lead">
+                        Learn from the quiz
+                    </p>
+                    <p>find solutions for quiz</p>
+                    
+                </div>
+                <div class="col-md">
+                    <img src="kambalnew.jpeg" class="image-fluid tut-img" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+<!--Service Section2-->
+    <section id="services" class="bg-dark text-light custom">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="hangerlo.jpeg" class="img-fluid mt-5 mb-5" alt="">
+                </div>
+                <div class="col-md p-5">
+                    <h3>guidelines for quiz</h3>
+                    <p class="lead">
+                        Drop your times and fasten your speed!
+                    </p>
+                    <p>
+                        Take up the  program to solve and compete faster.
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!---Questions-->
+    <section id="questions" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne">
+                      how this quiz works?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">quiz application.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo">
+                      tutorial?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">d helping t.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree">
+                      Is the timer free?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">The timer is totally free, you can track and analyse your solving time with ease.</div>
+                  </div>
+                </div>
+              </div>   
+        </div>
+    </section>
+
+<!--Contact section-->
+    <section id=contact class="p-5">
+        <div id="error"></div>
+        <div class="container">
+            <h2 class="text-center mb-4">register yourself</h2>
+            <form class="row g-3 d-flex justify-content-center" id="form" name="form">
+                <div class="col-md-5">
+                    <label for="firstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="firstName" required>
+                </div>
+                <div class="col-md-5">
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="lastName" required>
+                </div>
+                <div class="col-md-5">
+                    <label for="emailInfo" class="form-label">E-mail</label>
+                    <input type="email" onchange="ValidateEmail(document.form.text1)" name="text1" class="form-control" id="emailInfo" required>
+                </div>
+                <div class="col-md-5">
+                    <label for="phoneNumber" class="form-label">Phone Number</label>
+                    <input type="text" name="text2" onchange="ValidatePhoneNumber(document.form.text2)" class="form-control" id="phoneNumber" placeholder="+(91)">
+                </div>
+                <div class="col-md-10">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                </div>
+                <div class="col-md-6 text-center">
+                    <button type="submit" onclick="clicked()" class="btn btn-dark" required>Submit</button>
+                    <button type="reset" class="btn btn-dark" required>Cancel</button>
+                </div>
+            </form>
+        </div>    
+    </section>
+
+<!--Footer Section-->
+    <footer class="p-5 bg-dark text-light text-center position-relative footc">
+        <div class="container">
+            <p class="lead">quizz.com</p>
+            <a onclick="insta()"><i class="bi bi-instagram h2 mx-3"></i></a>
+            <!-- <a><i class="bi bi-twitter h2 mx-3"></i></a> -->
+            <a onclick="mail()"><i class="bi bi-envelope h2 mx-3 out"></i></a>
+        </div>
+    
+</body>
+</html>
